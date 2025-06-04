@@ -1,0 +1,58 @@
+! This is free and unencumbered software released into the public domain.
+!
+! Anyone is free to copy, modify, publish, use, compile, sell, or
+! distribute this software, either in source code form or as a compiled
+! binary, for any purpose, commercial or non-commercial, and by any
+! means.
+!
+! In jurisdictions that recognize copyright laws, the author or authors
+! of this software dedicate any and all copyright interest in the
+! software to the public domain. We make this dedication for the benefit
+! of the public at large and to the detriment of our heirs and
+! successors. We intend this dedication to be an overt act of
+! relinquishment in perpetuity of all present and future rights to this
+! software under copyright law.
+!
+! THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+! EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+! MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+! IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+! OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+! ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+! OTHER DEALINGS IN THE SOFTWARE.
+!
+! For more information, please refer to <https://unlicense.org/>
+!
+! ~~~~~~~~~~ Atlassian ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+atlassian.net##button:has(svg[aria-label="Atlassian Intelligence"])
+atlassian.net##button[label="Improve work item"]
+atlassian.net##li:has(>div>div>button[aria-label="AI"])
+! ~~~~~~~~~~ GitHub ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+github.com##.hide-md.hide-sm.AppHeader-CopilotChat
+github.com##div:has(> div > svg.octicon-copilot)
+! ~~~~~~~~~~ Google Cloud Console ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+console.cloud.google.com##gs-marketing-card:has(a[href*="vertex-ai"])
+console.cloud.google.com##pcc-atlas-chat-button
+! ~~~~~~~~~~ Google Docs ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docs.google.com###docs-sidekick-button-container
+docs.google.com##.FormulaBarContainerGeminiSummarizeButton
+docs.google.com##.docs-link-bubble-sidekick-prompt-button-card-component
+docs.google.com##.superfab-aitextgeneratormenu-button
+docs.google.com##div.apps-menuitem:has([aria-label^="AI summary"])
+docs.google.com##div.apps-menuitem:has([aria-label^="AI summary"]) + div.apps-hoverable-menu-separator-container
+docs.google.com##div.apps-menuitem:has([aria-label^="Gemini"])
+docs.google.com##div.apps-menuitem:has([aria-label^="Generate an image"])
+docs.google.com##div.apps-menuitem:has([aria-label^="Generate an image"]) + div.apps-hoverable-menu-separator-container
+docs.google.com##div.docs-action-updated-dot
+docs.google.com##div.docs-new-badge
+docs.google.com##div[aria-label="Refine"]
+docs.google.com##div[aria-label^="Gemini"]
+! ~~~~~~~~~~ Google Drive ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+drive.google.com##div:has(> div > div > button[aria-label="Ask Gemini"])
+drive.google.com##div:has(> div > div > span > button[aria-label="Ask Gemini"])
+drive.google.com##div > div > div[role=button][aria-label^="Summarize this"]
+drive.google.com##div:has(> div > div[aria-label="Catch me up"])
+! ~~~~~~~~~~ Google Meet ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+meet.google.com##button[aria-label^="Gemini"]
+! ~~~~~~~~~~ Slack ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+app.slack.com##div>button:has-text("AI Summarise")
