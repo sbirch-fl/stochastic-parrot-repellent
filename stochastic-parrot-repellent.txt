@@ -51,6 +51,7 @@ docs.google.com##div[aria-label^="Gemini"]
 drive.google.com##div:has(> div > div > button[aria-label="Ask Gemini"])
 drive.google.com##div:has(> div > div > span > button[aria-label="Ask Gemini"])
 drive.google.com##div > div > div[role=button][aria-label^="Summarize this"]
+drive.google.com##div > div > div[role=button][aria-label^="Summarize these"]
 drive.google.com##div:has(> div > div[aria-label="Catch me up"])
 drive.google.com##div[role=menuitem]:has-text(Summarize this)
 drive.google.com##div[role=menuitem]:has-text(Summarize this) + div[role=separator]
