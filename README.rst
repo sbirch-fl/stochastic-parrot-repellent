@@ -2,9 +2,8 @@
 Stochastic Parrot Repellent
 ===========================
 
-Hides many AI features
-----------------------
+Hides many AI features on Google, Atlassian, and Slack webapps. Tested with uBlock Origin on Firefox.
 
-Mostly for Google, Atlassian, and Slack webapps.
+Add this URL to your ad blocker: `https://raw.githubusercontent.com/sbirch-fl/stochastic-parrot-repellent/refs/heads/main/stochastic-parrot-repellent.txt`
 
-Tested with uBlock Origin on Firefox.
+Pull requests welcome!
