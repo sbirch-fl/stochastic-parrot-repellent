@@ -30,6 +30,7 @@ atlassian.net##li:has(>div>div>button[aria-label="AI"])
 ! ~~~~~~~~~~ GitHub ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 github.com##.hide-md.hide-sm.AppHeader-CopilotChat
 github.com##div>button:has(svg.octicon-copilot)
+github.com##.copilotPreview__container
 ! ~~~~~~~~~~ Google Cloud Console ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 console.cloud.google.com##gs-marketing-card:has(a[href*="vertex-ai"])
 console.cloud.google.com##pcc-atlas-chat-button
