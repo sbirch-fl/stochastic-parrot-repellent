@@ -43,6 +43,7 @@ docs.google.com##div.apps-menuitem:has([aria-label^="AI summary"]) + div.apps-ho
 docs.google.com##div.apps-menuitem:has([aria-label^="Gemini"])
 docs.google.com##div.apps-menuitem:has([aria-label^="Generate an image"])
 docs.google.com##div.apps-menuitem:has([aria-label^="Generate an image"]) + div.apps-hoverable-menu-separator-container
+docs.google.com##div.apps-menuitem:has([aria-label^="Help me create"])
 docs.google.com##div.docs-action-updated-dot
 docs.google.com##div.docs-new-badge
 docs.google.com##div[aria-label="Refine"]
