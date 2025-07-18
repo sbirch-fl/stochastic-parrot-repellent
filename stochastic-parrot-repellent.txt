@@ -24,7 +24,7 @@
 ! For more information, please refer to <https://unlicense.org/>
 !
 ! ~~~~~~~~~~ Atlassian ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-atlassian.net##button:has(svg[aria-label="Atlassian Intelligence"])
+atlassian.net##button[data-testid="atlassian-intelligence-toolbar-button"]
 atlassian.net##button[data-testid="issue-smart-request-summary-trigger.ui.jira-smart-summary-standard-button"]
 atlassian.net##div[data-testid="issue.views.issue-base.foundation.status.improve-issue"]
 atlassian.net##li:has(>div>div>button[aria-label="AI"])
