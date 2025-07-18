@@ -25,7 +25,7 @@
 !
 ! ~~~~~~~~~~ Atlassian ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 atlassian.net##button:has(svg[aria-label="Atlassian Intelligence"])
-atlassian.net##button[label="Improve work item"]
+atlassian.net##div[data-testid="issue.views.issue-base.foundation.status.improve-issue"]
 atlassian.net##li:has(>div>div>button[aria-label="AI"])
 ! ~~~~~~~~~~ GitHub ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 github.com##.hide-md.hide-sm.AppHeader-CopilotChat
