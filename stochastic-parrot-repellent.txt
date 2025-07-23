@@ -62,5 +62,6 @@ drive.google.com##div[role=menuitem]:has-text(Summarize these)
 drive.google.com##div[role=menuitem]:has-text(Summarize these) + div[role=separator]
 ! ~~~~~~~~~~ Google Meet ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 meet.google.com##button[aria-label^="Gemini"]
+meet.google.com##button[aria-label="You don't have access to Gemini"]
 ! ~~~~~~~~~~ Slack ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 app.slack.com##div>button:has-text("AI Summarise")
