@@ -64,5 +64,6 @@ drive.google.com##div[role=menuitem]:has-text(Summarize these) + div[role=separa
 meet.google.com##button[aria-label^="Gemini"]
 meet.google.com##div:has(> span > button[aria-label="You don't have access to Gemini"])
 meet.google.com##div:has(> div > button[aria-label="Turn on Take notes with Gemini for this meeting"])
+meet.google.com##div:has(>i:has-text(spark))
 ! ~~~~~~~~~~ Slack ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 app.slack.com##div>button:has-text("AI Summarise")
