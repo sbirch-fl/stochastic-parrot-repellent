@@ -30,7 +30,7 @@ atlassian.net##div[data-testid="issue.views.issue-base.foundation.status.improve
 atlassian.net##li:has(>div>div>button[aria-label="AI"])
 atlassian.net##div:has(>div>div>button[aria-label="AI"])
 atlassian.net##div:has(>div>div>div>#ai-answer-tabs-0)
-atlassian.net##span[data-testid=app-navigation-ai-mate]
+atlassian.net##span[data-testid="atlassian-navigation.ui.conversation-assistant.app-navigation-ai-mate"]
 ! ~~~~~~~~~~ GitHub ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 github.com##.hide-md.hide-sm.AppHeader-CopilotChat
 github.com##div>button:has(svg.octicon-copilot)
