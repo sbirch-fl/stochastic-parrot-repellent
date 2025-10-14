@@ -33,6 +33,8 @@ atlassian.net##div:has(>div>div>div>#ai-answer-tabs-0)
 atlassian.net##span[data-testid="atlassian-navigation.ui.conversation-assistant.app-navigation-ai-mate"]
 atlassian.net##button:has([aria-label*=Rovo])
 atlassian.net##[data-testid=feed-card-actions]>ul>li:has(button[data-testid="quick-summary-button"])
+atlassian.net##[data-testid="toolbar-buttons-wrapper"]>div:has-text("Suggest title")
+atlassian.net##[data-testid="editor-floating-toolbar-items"]>div:has([aria-label="Improve writing"])
 ! ~~~~~~~~~~ GitHub ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 github.com##.hide-md.hide-sm.AppHeader-CopilotChat
 github.com##div>button:has(svg.octicon-copilot)
