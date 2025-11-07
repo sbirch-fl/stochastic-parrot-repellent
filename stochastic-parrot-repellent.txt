@@ -37,7 +37,7 @@ atlassian.net##[data-testid="toolbar-buttons-wrapper"]>div:has-text("Suggest tit
 atlassian.net##[data-testid="editor-floating-toolbar-items"]>div:has([aria-label="Improve writing"])
 ! ~~~~~~~~~~ GitHub ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 github.com##.hide-md.hide-sm.AppHeader-CopilotChat
-github.com##div>button:has(svg.octicon-copilot)
+github.com##div:has(>div>button:has(svg.octicon-copilot))
 github.com##.copilotPreview__container
 ! ~~~~~~~~~~ Google Cloud Console ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 console.cloud.google.com##gs-marketing-card:has(a[href*="vertex-ai"])
